@@ -1,4 +1,13 @@
 # DSLR-release (The codes will be uploaded after the submitted paper is accepted)
+This repository is a Pytorch implementation of the paper [**"DSLR: Deep Stacked Laplacian Restorer for Low-light Image Enhancement"**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9264763)
+
+Seokjae Lim and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
+IEEE Transactions on Multimedia
+
+When using this code in your research, please cite the following paper:  
+
+Seokjae Lim and Wonjun Kim, **"DSLR: Deep Stacked Laplacian Restorer for Low-light Image Enhancement,"** **IEEE Transactions on Multimedia** early access.
+
 
 ### Experimental results with state-of-the art methods on the MIT-Adobe FiveK dataset
 ![example1](./example/fig1.png)
