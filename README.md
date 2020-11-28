@@ -24,3 +24,33 @@ Test samples from our own dataset and corresponding enhancement results by previ
 ### Experimental results with state-of-the art methods on our own dataset
 ![example4](./example/fig4.png)
 More examples of enhancement results on our own dataset. (a) Origianl input. (b) CLAHE. (c) LDR. (d) LIME. (e) HDRNet. (f) DR. (g) DPE. (h) UPE. (i) DSLR (proposed).
+
+
+### Requirements
+
+* Python >= 3.5
+* Pytorch 0.4.0
+* Ubuntu 16.04
+* CUDA 8 (if CUDA available)
+* cuDNN (if CUDA available)
+
+### Pretrained models
+You can download pretrained DSLR model
+* [Trained with MIT-Adobe FiveK dataset](https://drive.google.com/open?id=1zMUud-FvOjbW9jCpGzvh71p_SL6T_7r0)
+
+### Note 
+1. you should place the weights in the ./data/model/ 
+2. Dataset is also placed in the ./data directory  (i.e., ./data/training_dataset)
+3. Testset is placed in the ./data/test/input directory
+4. test results are saved in the ./data/result/
+
+### Training
+* DSLR: Deep Stacked Laplacian Restorer training
+```bash
+python main.py n
+```
+## Testing 
+* DSLR: Deep Stacked Laplacian Restorer testing
+```bash
+python test.py t
+```
