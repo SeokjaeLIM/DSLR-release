@@ -6,8 +6,8 @@ IEEE Transactions on Multimedia
 
 When using this code in your research, please cite the following paper:  
 
-Seokjae Lim and Wonjun Kim, **"DSLR: Deep Stacked Laplacian Restorer for Low-light Image Enhancement,"** **IEEE Transactions on Multimedia** [**10.1109/TMM.2020.3039361**].
-(https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9264763)
+Seokjae Lim and Wonjun Kim, **"DSLR: Deep Stacked Laplacian Restorer for Low-light Image Enhancement,"** **IEEE Transactions on Multimedia** [**10.1109/TMM.2020.3039361**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9264763).
+
 
 ### Experimental results with state-of-the art methods on the MIT-Adobe FiveK dataset
 ![example1](./example/fig1.png)
